@@ -1,3 +1,5 @@
-# Charlie Deux
+# BraveRails
 
-The new Charliegleason.com, which uses Harp, Gulp and BrowserSync.
+Make it count.
+
+Based of Charliegleason.com Harp template; which uses Harp, Gulp and BrowserSync.
