@@ -1,0 +1,18 @@
+doctype
+html
+  head
+    != partial("_shared/head")
+    != partial("_shared/GA")
+  body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
+    != partial("_shared/header")
+    if current.path[0] === "index" 
+      != yield
+    else
+      if current.path[0] === "blog"
+        != partial("/blog/_blog")
+      else if current.path[0] === "work"
+        != partial("/work/_work")
+      else if ["404", "about"].indexOf(current.path[0]) !== -1
+        .container(class="content-#{ current.path[0] } #{ current.path.join('-') }")
+          != yield
+    != partial("_shared/footer")
