@@ -1,0 +1,27 @@
+{
+  "add-custom-slider-in-bootstrapify-theme": {
+    "title": "Add custom bootstrap slider inside Bootstrapify theme",
+    "date": "7th August 2014",
+    "author": "ajmalafif"
+  },
+  "shopify-theming-tips-with-bootstrapify": {
+    "title": "Shopify theming tips with Bootstrapify",
+    "date": "6th August 2014",
+    "author": "ajmalafif"
+  },
+  "include-row-for-every-4-products-cycle-in-shopify": {
+    "title": "Nested class with cycle operator in Shopify's Liquid",
+    "date": "5th August 2014",
+    "author": "ajmalafif"
+  },
+  "100-percent-google-page-insight": {
+    "title": "Optimizing Google Page Insight",
+    "date": "2st August 2014",
+    "author": "ajmalafif"
+  },
+  "til-rails-learning": {
+    "title": "Today I learn: Rails tips & tricks",
+    "date": "21st July 2014",
+    "author": "ajmalafif"
+  }
+}

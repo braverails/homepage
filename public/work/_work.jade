@@ -1,0 +1,18 @@
+if current.source === "index"
+  != yield
+else
+  .container.text-center.m-bottom-two
+    h1= title
+    em= date
+  .layout.layout-work
+    != yield
+    //- h3
+    //-   a(href="#{ public.work._data.[work].website }")= website
+  //-   .container
+  //-     != partial("../_shared/nav-work")
+  //- hr
+  //- .container.blog-comment
+  //-   != partial("../author/author")
+
+//- .container.layout-content
+  //- != partial("../_shared/work-nav")

@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "site_title": "braverails",
+    "description": "Custom web application development with Ruby on Rails, WordPress and Shopify based in Kuala Lumpur, Malaysia.",
+    "site_url": "http://braverails.com",
+    "site_twitter": "braverails",
+    "disqus_account": "braverails",
+    "analytics_account": ""
+  }
+}

@@ -1,0 +1,9 @@
+for post, slug in public.blog._data
+  if post.layout !== false
+  .blog(class="#{ slug }")
+    a(href="/blog/#{ slug }.html")
+      .container
+        .col-sm-12
+          h1= post.title
+          em.pull-right.date #{ post.date }
+        

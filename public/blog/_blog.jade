@@ -1,0 +1,20 @@
+if current.source === "index"
+  .hero
+    .container.text-center
+      h3 I enjoy writing down and share my findings & insights.
+  .layout-blog.layout-blog-index
+    != yield
+else
+  .container.text-center.m-bottom-two
+    h1= title
+    em= date
+  .layout-blog.layout-work
+    != yield
+    .container
+      //- != partial("../_shared/nav-blog")
+  hr
+  .container.blog-comment
+    //- != partial("../author/author")
+    //- != partial("../_shared/disqus")
+    //- != partial("../_shared/work-nav")
+

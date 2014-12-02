@@ -1,10 +1,10 @@
 doctype
 html
   head
-    != partial("_shared/head")
-    != partial("_shared/GA")
+    != partial("_shared/_head")
+    != partial("_shared/_GA")
   body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
-    != partial("_shared/header")
+    != partial("_partials/navigation")
     if current.path[0] === "index" 
       != yield
     else
@@ -15,4 +15,4 @@ html
       else if ["404", "about"].indexOf(current.path[0]) !== -1
         .container(class="content-#{ current.path[0] } #{ current.path.join('-') }")
           != yield
-    != partial("_shared/footer")
+    != partial("_partials/footer")
