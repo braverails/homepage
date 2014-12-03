@@ -1,0 +1,26 @@
+{
+  "rails": {
+    "id": 0,
+    "bg": "bg-rails",
+    "photo": "rails.png",
+    "title": "Ruby on Rails",
+    "cycle": "12/2014",
+    "description": "We've built and worked with startups to develop their apps using Ruby on Rails."
+  },
+  "shopify": {
+    "id": 1,
+    "bg": "bg-shopify",
+    "photo": "shopify.png",
+    "title": "Shopify",
+    "cycle": "11/2014",
+    "description": "We help businesses custom build and design their Shopify stores."
+  },
+  "wordpress": {
+    "id": 2,
+    "bg": "bg-wordpress",
+    "photo": "wordpress.png",
+    "title": "WordPress",
+    "cycle": "10/2014",
+    "description": "We've worked on WordPress-powered platforms such as Business Insider Malaysia and Juice Online."
+  }
+}

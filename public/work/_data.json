@@ -1,0 +1,72 @@
+{
+  "touristly": {
+    "id": 0,
+    "bg": "bg-touristly",
+    "photo": "touristly.png",
+    "title": "Touristly",
+    "cycle": "12/2014",
+    "date": "End of 2014",
+    "website": "http://touristly.com",
+    "description": "Touristly"
+  },
+  "recomn": {
+    "id": 1,
+    "bg": "bg-recomn",
+    "photo": "recomn.png",
+    "title": "Recomn",
+    "cycle": "11/2014",
+    "date": "End of 2014",
+    "website": "http://recomn.com",
+    "description": "Get recommendation from friends."
+  },
+  "goget": {
+    "id": 2,
+    "bg": "bg-goget",
+    "photo": "goget.png",
+    "title": "GoGet",
+    "cycle": "10/2014",
+    "date": "April 2014",
+    "website": "http://goget.my",
+    "description": "Rails 4 app."
+  },
+  "business-insider": {
+    "id": 3,
+    "bg": "bg-business-insider",
+    "photo": "business-insider.png",
+    "title": "Business Insider",
+    "cycle": "9/2014",
+    "date": "April 2014",
+    "website": "http://businessinsider.my",
+    "description": "Frontend development on WordPress & Roots Theme."
+  },
+  "pestle-and-mortar": {
+    "id": 4,
+    "bg": "bg-pestle",
+    "photo": "pestle.png",
+    "title": "Pestle & Mortar",
+    "cycle": "9/2014",
+    "date": "Mar 2014",
+    "website": "http://pestlemortarclothing.com",
+    "description": "Pestle & Mortar on Shopify."
+  },
+  "majordrop": {
+    "id": 5,
+    "bg": "bg-majordrop",
+    "photo": "majordrop.png",
+    "title": "Majordrop",
+    "cycle": "8/2014",
+    "date": "Dec 2013",
+    "website": "http://majordrop.com",
+    "description": "MajorDrop E-Commerce store."
+  },
+  "juice": {
+    "id": 6,
+    "bg": "bg-juice",
+    "photo": "juice.png",
+    "title": "Juice Online",
+    "cycle": "7/2014",
+    "date": "Dec 2013",
+    "website": "http://juiceonline.com",
+    "description": "Juice Online web development."
+  }
+}

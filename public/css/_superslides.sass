@@ -1,0 +1,78 @@
+#slides 
+  position: relative
+  color: #fff
+  background: #9D3737
+  background: -moz-linear-gradient(-62deg, #9D3737 0%, #BA6F6F 100%)
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #9D3737), color-stop(100%, #BA6F6F))
+  background: -webkit-linear-gradient(-62deg, #9D3737 0%, #BA6F6F 100%)
+  background: -o-linear-gradient(-62deg, #9D3737 0%, #BA6F6F 100%)
+  background: -ms-linear-gradient(-62deg, #9D3737 0%, #BA6F6F 100%)
+  background: linear-gradient(135deg, #9D3737 0%,#BA6F6F 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$fromColor', endColorstr='$toColor',GradientType=1 )
+
+#slides .slides-container 
+  display: none
+
+#slides .slide-container
+  position: absolute
+  top: 30%
+  width: 100%
+
+#slides .scrollable 
+  *zoom: 1
+  position: relative
+  top: 0
+  left: 0
+  overflow-y: auto
+  -webkit-overflow-scrolling: touch
+  height: 100%
+
+#slides .scrollable:after 
+  content: ""
+  display: table
+  clear: both
+
+
+.slides-navigation 
+  margin: 0 auto
+  position: absolute
+  z-index: 3
+  top: 46%
+  width: 100%
+
+.slides-navigation a 
+  position: absolute
+  display: block
+
+.slides-navigation a.prev 
+  left: 0
+
+.slides-navigation a.next 
+  right: 0
+
+.slides-pagination 
+  position: absolute
+  z-index: 3
+  bottom: 2%
+  text-align: center
+  width: 100%
+
+.slides-pagination a 
+  border: 1px solid #f9f9f9
+  border-radius: 15px
+  width: 10px
+  height: 10px
+  display: -moz-inline-stack
+  display: inline-block
+  vertical-align: middle
+  *vertical-align: auto
+  zoom: 1
+  *display: inline
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+  margin: 2px
+  overflow: hidden
+  text-indent: -100%
+
+.slides-pagination a.current 
+  background: #f9f9f9
+
