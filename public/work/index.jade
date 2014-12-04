@@ -27,12 +27,14 @@ script.
 h2.text-center Projects We've worked on
 .content-bottom
   for post, slug in public.work._data
-    .work(class="#{ slug }")
-      a(href="/work/#{ slug }.html")
-        .container
-          .col-sm-6
+    .work(class="#{ slug } row")
+      .container
+        .col-sm-6
+          a(href="/work/#{ slug }.html")
             h1= post.title
             em #{post.date}
             p= post.description
-          .col-sm-6
+        .col-sm-6
+          a(href="/work/#{ slug }.html")
+            img(src='/images/work/browser.png', class='img-responsive text-center')
             
